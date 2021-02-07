@@ -1,8 +1,15 @@
-# major_1
+INSTALLATION:
+GET THE HARDWARE SETUP COMPLETLY
+
+Download Arduino IDE : https://www.arduino.cc/en/software
+OPEN the _ino file.
+Upload to ARDUINO
+
+
 Arduino Gas and Temperature Decdector
 
 
-  Project Title: Android based Industrial fault monitoring system
+Project Title: Android based Industrial fault monitoring system
 
 Abstract:
 Now a day, automation is a major element in the industry. Human efforts are reduced with the contraption of  automation machine which monitors and detects any faults in the system. Here we procreate a similar automation machine for use in industries for monitoring numerous parameters which includes temperature, humidity and lpg gas leak.
@@ -24,28 +31,23 @@ To design a IOT based monitoring system for industry automation.
 Methodology:
 This project is a combination of hardware system and android application. Hardware and android communicate using Bluetooth module. At hardware aspect we use Bluetooth module and the in-construct Bluetooth of Android cellular is used. In this to construct the android app we use Android Studio software program. Android app GUI indicates the values of parameters. It will have a start and stop buttons to turn on and turn off the basic devices. When we press the start button on the GUI internal timer starts and the android app connects with the hardware Bluetooth and sends command to the read each all sensor. Two sensors provide analog values which are tempeture and gas. The digital value gives gas and temperature. If all the sensor exceed there range then automatically value displayed on android application this application can be turned on basic device.
 
-Phase
-No.
 	                             
-                                 Phase name	
- Time duration
-1.
-	Feasibility study	1 week
-2.	System requirement and analysis	               1 week
-3.
-	Design
+
+
+	Phase name				Time duration
+1.Feasibility study					1 week
+2.System requirement and analysis	               1 week
+3.Design
        Module 1: Communication interface
        Module 2: Bluetooth device set up
        Module 3: Working with Android Studio. 	               
-              3 weeks
-4.	Coding and unit testing	              4 weeks
-5.
-
-	Integration and system testing	             2 weeks
-6.	Maintenance	            3 weeks
+           					   3 weeks
+4.Coding and unit testing	         	     4 weeks
+5.Integration and system testing	             2 weeks
+6.Maintenance	        			    3 weeks
 
 
-System Requirements: (Software/Hardware)
+System Requirements: (Hardware)
 1) Microcontroller
 2) Android mobile with application installed.
 3) Bluetooth Receiver and decoder for Wireless communication
